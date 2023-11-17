@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>accessible.qml</file>
+        <file>content/Button.qml</file>
+    </qresource>
+</RCC>
+ 

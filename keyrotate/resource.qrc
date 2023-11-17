@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>contect/button.qml</file>
+        <file>images/bluebutton.png</file>
     </qresource>
 </RCC>
