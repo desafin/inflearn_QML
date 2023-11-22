@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    const QUrl url("qrc:/flickable_example/main.qml");
+    const QUrl url("qrc:/flickable_ground.qml");
 
     engine.load(url);
 
