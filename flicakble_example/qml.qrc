@@ -3,5 +3,7 @@
         <file>flickable_ground.qml</file>
         <file>images/ground.jpg</file>
         <file>images/player.png</file>
+        <file>Signal_Handler.qml</file>
+        <file>content/SquareButton.qml</file>
     </qresource>
 </RCC>
