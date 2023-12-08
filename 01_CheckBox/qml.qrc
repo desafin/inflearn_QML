@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>checked_main.qml</file>
+        <file>content/NewCheckBox.qml</file>
+        <file>images/checked.svg</file>
+        <file>images/unchecked.svg</file>
+    </qresource>
+</RCC>

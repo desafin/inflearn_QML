@@ -1,14 +1,26 @@
 import QtQuick
-import "qrc:/LineEdit.qml"
+import "content"
+
 
 Window {
-    visible: true;width:400;height: 100
+    id:root
+    width: 250
+    height: 100
+    visible: true
     color: "lightblue"
 
 
-    LineEdit{
+    NewCheckBox{
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
-        width: 300;height: 50
+
+
+
+        onMyChecked:function(checkValue){
+            if(checkValue)
+                root.color="red"
+            else
+                root.color="lightblue"
+        }
     }
 }
